@@ -32,5 +32,7 @@ Here is the topology for the network design:
 
 ![](MPLS-Topology.png)
 
+At the center are TD Bank's on-premise datacentres. From there, there are series of routers for the MPLS Service Providers like Lumen and Cogent, which finally connect to the AWS/Azure resources that TD holds.
+
 ## Vendors
 As seen in the topology, the routing vendors and used in the project are Cisco and Juniper, with operating systems IOS and Junos respectively.
